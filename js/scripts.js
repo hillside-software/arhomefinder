@@ -632,15 +632,15 @@ $(document).ready(function() {
     // Contact form code                                          //
     //                                                            //
     //                                                            //
-    $("form.form-email, form.form-newsletter").submit(function(e) {
-        e.preventDefault();
+    // $("form.form-email, form.form-newsletter").submit(function(e) {
+    //     e.preventDefault();
 
-        var $form = $(this);
-        $.post($form.attr("action"), $form.serialize())
-        .then(function() {
-            alert("Thank you!");
-        });
-    });
+    //     var $form = $(this);
+    //     $.post($form.attr("action"), $form.serialize())
+    //     .then(function() {
+    //         alert("Thank you!");
+    //     });
+    // });
 
     // $('form.form-email, form.form-newsletter').submit(function(e) {
 
