@@ -1,1 +1,21 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
+.flex-box {
+  display: flex;
+}
+
+.text-logo {
+  margin-bottom: 0px;
+  line-height: 53px !important;
+}
+
+.text-logo a {
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.outOfSight .text-logo a {
+  color: #333 !important;
+  font-weight: 700;
+  font-size: 30px;
+}
