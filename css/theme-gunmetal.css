@@ -43,7 +43,7 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 13px;
+  font-size: 18px;
   line-height: 24px;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #666;
@@ -325,7 +325,7 @@ h4 {
   line-height: 32px;
 }
 h5 {
-  font-size: 16px;
+  font-size: 22px;
   line-height: 24px;
   font-weight: 400;
 }
@@ -722,11 +722,10 @@ footer.bg-dark li,
 .btn {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   border: 2px solid #333347;
-  padding: 0 26px;
+  padding-top: 10px;
   height: 40px;
-  min-width: 150px;
-  line-height: 36px;
-  font-size: 12px;
+  min-width: 175px;
+  font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
