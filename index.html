@@ -15,7 +15,44 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600" rel="stylesheet" type="text/css" />
   </head>
   <body class="btn-rounded boxed-layout">
-    <div class="main-container">
+    <div class="nav-container">
+      <a id="top"></a>
+      <nav class="transparent absolute">
+        <div class="nav-bar">
+          <div class="module left flex-box">
+            <h3 class="text-logo"><a href="index.html">ARHD</a></h3>
+          </div>
+          <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
+            <i class="ti-menu"></i>
+          </div>
+          <div class="module-group right">
+            <div class="module left">
+              <ul class="menu">
+                <li>
+                  <a href="#home">Home</a>
+                </li>
+                <li>
+                  <a href="#about">About</a>
+                </li>
+                <li>
+                  <a href="#how">How It Works</a>
+                </li>
+                <li>
+                  <a href="#example">Example</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+                <li>
+                  <a href="#">Download</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div id="home" class="main-container">
       <section class="fullscreen cover parallax image-bg overlay">
         <div class="background-image-holder">
           <img alt="image" class="background-image" src="img/AUG1.jpg" />
@@ -24,8 +61,8 @@
           <div class="row">
             <div class="col-sm-12 text-center">
               <h1 class="mb16"><b>Introducing the AR Home Designer app&nbsp;<br /></b>AUGMENTED REALITY FOR HOME BUILDERS AND SHOWROOMS</h1>
-              <h6 class="uppercase mb32">EASILY VISUALIZE HOME APPLIANCES AND FURNITURE IN YOUR HOME BEFORE YOU BUY
-              </h6>
+              <h5 class="uppercase bold mb32">EASILY VISUALIZE APPLIANCES AND FURNITURE IN YOUR HOME BEFORE YOU BUY
+              </h5>
               <div class="modal-container">
                 <div class="foundry_modal no-bg">
                   <iframe data-provider="youtube" data-video-id="https://www.youtube.com/watch?v=jFCLU-kbHP8&amp;feature=youtu.be" data-autoplay="1"></iframe>
@@ -35,7 +72,7 @@
           </div>
         </div>
       </section>
-      <section>
+      <section id="about">
         <div class="container">
           <div class="row v-align-children">
             <div class="col-sm-4 col-md-offset-1 mb-xs-24">
@@ -70,7 +107,7 @@
           </div>
         </div>
       </section>
-      <section class="bg-secondary">
+      <section id="how" class="bg-secondary">
         <div class="container">
           <div class="row v-align-children">
             <div class="col-md-7 col-sm-6 text-center mb-xs-24">
@@ -117,7 +154,7 @@
           </div>
         </div>
       </section>
-      <section>
+      <section class="bg-secondary">
         <div class="container">
           <div class="row v-align-children">
             <div class="col-md-4 col-sm-5 mb-xs-24">
@@ -164,7 +201,7 @@
           </div>
         </div>
       </section>
-      <section>
+      <section id="example" class="bg-secondary">
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-md-push-3 text-center">
@@ -280,7 +317,7 @@
           </div>
         </div>
       </section>
-      <section>
+      <section id="contact">
         <div class="container">
           <div class="row">
             <div class="col-sm-6 col-md-5">
@@ -316,18 +353,18 @@
       <footer class="footer-2 bg-dark text-center-xs">
         <div class="container">
           <div class="row">
-            <div class="col-sm-4">
-              <a href="#">
+            <div class="col-sm-2">
+              <!-- <a href="#">
                 <div class="vnu">
                   <img class="image-xxs fade-half" alt="Pic" src="img/logo2-light.png" />
                 </div>
-              </a>
+              </a> -->
             </div>
-            <div class="col-sm-4 text-center">
-              <span class="fade-half">© Copyright&nbsp;- All Rights Reserved</span>
+            <div class="col-sm-8 text-center">
+              <span class="fade-half">© Copyright&nbsp;- Hillside Software, Inc. All Rights Reserved</span>
             </div>
-            <div class="col-sm-4 text-right text-center-xs">
-              <ul class="list-inline social-list">
+            <div class="col-sm-2 text-right text-center-xs">
+              <!-- <ul class="list-inline social-list">
                 <li>
                   <a href="#"><i class="ti-twitter-alt"></i></a>
                 </li>
@@ -340,7 +377,7 @@
                 <li>
                   <a href="#"><i class="ti-vimeo-alt"></i></a>
                 </li>
-              </ul>
+              </ul> -->
             </div>
           </div>
         </div>
