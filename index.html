@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <title>Digital Smart Flyers</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
         <link href="css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
@@ -13,7 +13,7 @@
         <link href="css/ytplayer.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/theme-gunmetal.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
-        <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
     </head>
     <body class="btn-rounded boxed-layout">
 				
@@ -87,10 +87,10 @@
 		                            <img alt="Background Image" class="background-image" src="img/home3.jpg">
 		                        </div>
 		                        <video controls="">
-		                            <source src="" type="video/webm">
-		                                <source src="video/red-chair.mp4" type="video/mp4">
-		                                    <source src="" type="video/ogg">
-		                        </video>
+															<source src="" type="video/webm">
+															<source src="video/red-chair.mp4" type="video/mp4">
+															<source src="" type="video/ogg">
+														</video>
 		                        <div class="play-button"></div>
 		                    </div>
 		                    
@@ -260,12 +260,13 @@
 		                    </p>
 		                </div>
 		                <div class="col-sm-6 col-md-5 col-md-offset-1">
-		                    <form class="form-email" data-success="Thanks for your submission, we will be in touch shortly." data-error="Please fill all fields correctly." success-redirect="">
-		                        <input type="text" class="validate-required" name="name" placeholder="Your Name">
-		                        <input type="text" class="validate-required validate-email" name="email" placeholder="Email Address">
-		                        <textarea class="validate-required" name="message" rows="4" placeholder="Message"></textarea>
-		                        <button type="submit">Send Message</button>
-		                    </form>
+<form data-netlify="true" name="arhomeplanner-contact" class="form-email" data-success="Thanks for your submission, we will be in touch shortly." data-error="Please fill all fields correctly." success-redirect="">
+	<input type="text" class="validate-required" name="name" placeholder="Your Name" />
+	<input type="text" class="validate-required validate-email" name="email" placeholder="Email Address" />
+	<textarea class="validate-required" name="message" rows="4" placeholder="Message"></textarea>
+	<div data-netlify-recaptcha="true"></div>
+	<button type="submit">Send Message</button>
+</form>
 		                </div>
 		            </div>
 		            
@@ -280,7 +281,7 @@
 					
 						<div class="col-sm-4 text-center">
 							<span class="fade-half">
-								© Copyright&nbsp;- All Rights Reserved</span>
+								© Copyright 2019 - All Rights Reserved</span>
 						</div>
 					
 						<div class="col-sm-4 text-right text-center-xs">
